@@ -13,14 +13,14 @@
                 'deps/msgpack/msgpack.gyp:libmsgpack'
             ],
             'cflags_cc': [
-                    '-Wall',
-                    '-O3',
-                    '-std=c++14',
-                ],
-                'cflags': [
-                    '-Wall',
-                    '-O3'
-                ],
+                '-Wall',
+                '-O3',
+                '-std=c++14'
+            ],
+            'cflags': [
+                '-Wall',
+                '-O3'
+            ],
             'cflags!': [
               '-fno-exceptions',
               '-Wno-unused-function'
